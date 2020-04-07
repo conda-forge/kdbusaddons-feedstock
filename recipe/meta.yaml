@@ -1,5 +1,5 @@
 {% set name = "kdbusaddons" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kdbusaddons-{{ version }}.tar.xz
-  sha256: ae4795d1286c97f46be9121b2761f811e36f1c586cb030ed6debd97dc7c73518
+  sha256: 839fe42f9ac8df353f87245110fd7b515a8eb29f0840f54481bd89e5175bf1af
 
 build:
   number: 0
@@ -42,7 +42,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'Convenience classes for D-Bus'
+  summary: Convenience classes for D-Bus
   description: |
     KDBusAddons provides convenience classes on top of QtDBus, as well as an API to create KDED modules.
   dev_url: https://cgit.kde.org/kdbusaddons.git/tree

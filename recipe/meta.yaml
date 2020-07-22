@@ -1,5 +1,5 @@
 {% set name = "kdbusaddons" %}
-{% set version = "5.71.0" %}
+{% set version = "5.72.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kdbusaddons-{{ version }}.tar.xz
-  sha256: b441f525248d9d675333cebedf97ee0232a3a9b7aa9aff84d825dfcdb3bcd23c
+  sha256: 5c8ee0f8e5741d6a934aa722874ba3d7f0d101f43bddc4e87c15320f289fa232
 
 build:
   number: 0

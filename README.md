@@ -3,11 +3,13 @@ About kdbusaddons
 
 Home: https://api.kde.org/frameworks/kdbusaddons/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kdbusaddons-feedstock/blob/master/LICENSE.txt)
 
 Summary: Convenience classes for D-Bus
+
+Development: https://cgit.kde.org/kdbusaddons.git/tree
 
 KDBusAddons provides convenience classes on top of QtDBus, as well as an API to create KDED modules.
 

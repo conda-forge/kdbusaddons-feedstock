@@ -1,5 +1,5 @@
 {% set name = "kdbusaddons" %}
-{% set version = "5.74.0" %}
+{% set version = "5.75.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kdbusaddons-{{ version }}.tar.xz
-  sha256: e2c5131e7eb0daaa348801ed1b553dd043918663f6dcaa50ad95f55e0d30b4a2
+  sha256: 25826b091a22d876621dca040ca47ea1ec34119d300be91f19629a82c7f84af1
 
 build:
   number: 0
@@ -41,7 +41,7 @@ about:
   home: https://api.kde.org/frameworks/kdbusaddons/html/index.html
   license: LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
   license_family: GPL
-  license_file: 
+  license_file:
     - LICENSES/LGPL-2.0-only.txt
     - LICENSES/LGPL-2.0-or-later.txt
     - LICENSES/LGPL-2.1-only.txt
